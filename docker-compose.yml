@@ -39,7 +39,7 @@ services:
       timeout: 3s
       retries: 50
   minio:
-    image: satantime/minio-server:RELEASE.2025-09-07T16-13-09Z-cpuv1
+    image: 294056655878.dkr.ecr.ap-northeast-1.amazonaws.com/opencti-image:minio-RELEASE.2025-09-07T16-13-09Z-cpuv1
     platform: linux/arm64
     volumes:
       - s3data:/data
